@@ -6,7 +6,7 @@ This application is a simple Node.js [Express 4](http://expressjs.com/) sample t
 
 To start working from a DevOps approach, use the DevOps Tutorial Application project. You'll get a project in [IBM&reg; Bluemix&trade; DevOps Services](https://hub.jazz.net) that is built by using the latest tools, deployed to [IBM Bluemix](https://bluemix.net), and has the foundation for test, scalability, and operations.
 
-Use this sample application with a DevOps toolchain (templated in [[template]](https%3A//github.com/hmagph/devops-tutorial-3) !
+Use this sample application with a DevOps toolchain ([template](https%3A//github.com/hmagph/devops-tutorial-3) !
 
 ###To get started, click this button:
 [![Create Toolchain](https://new-console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://new-console.ng.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/hmagph/devops-tutorial-3)
