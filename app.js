@@ -79,6 +79,6 @@ SwaggerExpress.create(config, function(err, swaggerExpress) {
   // install middleware
   swaggerExpress.register(app);
 
-  var port = process.env.VCAP_APP_PORT || 3000;
+  var port = process.env.PORT || 3000;
   app.listen(port);
 });
