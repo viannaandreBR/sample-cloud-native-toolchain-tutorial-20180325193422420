@@ -38,8 +38,8 @@ describe('controllers', function() {
           .expect(200)
           .end(function(err, res) {
             should.not.exist(err);
-
-            res.body.should.eql('Hello there, Scott!');
+            var helloname = util.format(‘Hello there, %s!’, name);
+            res.body.should.eql(helloname);
 
             done();
           });
